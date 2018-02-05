@@ -21,7 +21,7 @@ a {
 
 #intro{
     color: white;
-    height: 700px;
+    height: 800px;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -46,7 +46,7 @@ a {
 #second{
     padding: 0;
     color: white;
-    height: 700px;
+    height: 1400px;
     margin: 0;
     background: url(images/laptop-2557574_1920.jpg) no-repeat fixed top left;
 }
