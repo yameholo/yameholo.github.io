@@ -2,6 +2,7 @@ body{
     margin: 0;
     min-width: 980px;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -36,7 +37,7 @@ a {
     padding-top: 150px;
 }
 .story p{
-    margin: 0 -100px 0 760px;
+    margin: 0 -200px 0 760px;
 }
 
 #name{
