@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    min-width: 980px;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+#nav{
+    list-style: none;
+    position: fixed;
+    right: 20px;
+}
+
+#nav li{
+    margin: 0 0 15px 0;
+}
+
+#intro{
+    color: white;
+    height: 700px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: url(images/fox-1883658_1920.jpg) no-repeat fixed top left;
+}
+
+.story{
+    margin: 0;
+    min-width: 980px;
+    width: 980px;
+    font-size: 24px;
+    padding-top: 150px;
+}
+.story p{
+    margin: 0 -100px 0 760px;
+}
+
+#name{
+    font-size: 3em;
+}
+
+#second{
+    padding: 0;
+    color: white;
+    height: 700px;
+    margin: 0;
+    background: url(images/laptop-2557574_1920.jpg) no-repeat fixed top left;
+}
+
+.inner{
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 0;
+    min-width: 980px;
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+}
+
+.inner p{
+    padding: 0;
+    margin: 0;
+}
+
+#projects{
+    padding-top: 70px;
+    margin-left: 150px;
+    font-size: 1.5em;
+}
+
+.wrapper{
+    margin: 50px;
+    display: flex;
+}
+
+.element{
+    padding: 5px;
+    width: 260px;
+    height: 350px;
+    color: #a7751e;
+    margin: 30px 20px;
+    background: linear-gradient(#afaf7e, #ffffff);
+}
+
+.element p{
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+#img1{
+    width: 100%;
+    height: 200px;
+    background: url("images/jupyter.png") center;
+    background-size: cover;
+}
+
+#img2{
+    width: 100%;
+    height: 200px;
+    background: url("images/no-images.jpg") center;
+    background-size: cover;
+}
+
+#img3{
+    width: 100%;
+    height: 200px;
+    background: url("images/06c19db2.jpg") center;
+    background-size: cover;
+}
+
+#img4{
+    width: 100%;
+    height: 200px;
+    background: url("images/no-images.jpg") center;
+    background-size: cover;
+}
+
+.cover{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.cover p{
+    padding-top: 60px;
+    color: white;
+    font-size: 1.5em;
+}
+
+#contact{
+    color: white;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+    background: wheat;
+}

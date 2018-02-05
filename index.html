@@ -1,25 +1,99 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Yohei Ema</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.parallax-1.1.3.js"></script>
+    <script type="text/javascript" src="scripts/jquery.localscroll-1.2.7-min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.scrollTo-1.4.2-min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.inview.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#nav').localScroll(800);
+
+            //.parallax(xPosition, speedFactor, outerHeight) options:
+            //xPosition - Horizontal position of the element
+            //inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+            //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+            $('#intro').parallax("30%", 0.1);
+            $('#second').parallax("50%", 0.1);
+        })
+    </script>
   </head>
   <body>
-    <div align="center">
-    <!-- Google  -->
-    <!--
-    <form method=get action="http://www.google.co.jp/search">
-      <table bgcolor="#FFFFFF"><tr><td>
-        <a href="http://www.google.co.jp/">
-          <img src="http://www.google.com/logos/Logo_40wht.gif" border="0" alt="Google" align="absmiddle"></a>
-          <input type=text name=q size=31 maxlength=255 value="">
-          <input type=hidden name=ie value=Shift_JIS>
-          <input type=hidden name=oe value=Shift_JIS>
-          <input type=hidden name=hl value="ja">
-          <input type=submit name=btnG value="Google 検索">
-        </td></tr></table>
-    </form>
-    -->
-    <!-- Google -->
-    <a href="http://yameholo.github.io/CRtournament">this is a CR tournament page</a>
+  <ul id="nav">
+    <li><a href="#intro" title="Next Section"><img src="images/dot.png" alt="Link"></a> </li>
+    <li><a href="#second" title="Next Section"><img src="images/dot.png" alt="Link"></a> </li>
+    <li><a href="#contact" title="Next Section"><img src="images/dot.png" alt="Link"></a> </li>
+  </ul>
+
+  <div id="intro">
+    <div class="story">
+      <p id="name">Yohei Ema</p>
+      <p>A student of Hosei University</p>
+      <p>Python C++</p>
+    </div>
   </div>
+
+  <div id="second">
+    <div class="inner">
+      <p id="projects">Projects</p>
+
+      <div class="wrapper">
+        <div class="element">
+          <a href="https://github.com/yameholo/Scientific-computing">
+            <div id="img1">
+              <div class="cover">
+                <p>科学技術計算</p>
+              </div>
+            </div>
+          </a>
+          <p>　科学技術計算で用いるアルゴリズムをjupyterで実装。学習用。</p>
+        </div>
+
+          <div class="element">
+            <a href="https://github.com/yameholo/BruteForcePy">
+              <div id="img2">
+                <div class="cover">
+                  <p>BruteForcePy</p>
+                </div>
+              </div>
+            </a>
+            <p>[開発中]<br>マルチスレッドで総当たり法を実装。現在、索敵用の辞書式な単語生成機能のみ。</p>
+          </div>
+
+          <div class="element">
+            <a href="https://github.com/yameholo/Design-Pattern-on-Unity">
+              <div id="img3">
+                <div class="cover">
+                  <p>Design-Pattern-on-Unity</p>
+                </div>
+              </div>
+            </a>
+            <p>　Unityでdesign patternを実装。<br>command pattern, composite patternを用いたコントローラを作成。</p>
+          </div>
+
+          <div class="element">
+            <a href="https://github.com/yameholo/SearchMe">
+              <div id="img4">
+                <div class="cover">
+                  <p>SearchMe</p>
+                </div>
+              </div>
+            </a>
+            <p>[開発中]<br>ブラウザの履歴から自分の興味のあるワードを表示する。現在、形態素解析したワードを保存する機能のみ</p>
+          </div>
+      </div>
+    </div>
+  </div>
+<!--
+  <div id="contact">
+    <div class="story">
+
+    </div>
+  </div>
+-->
   </body>
 </html>
