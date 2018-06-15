@@ -1,0 +1,48 @@
+
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+.my-text-shadow-title {
+    text-shadow: 1px 2px 14px #494949;
+}
+
+.my-text-shadow-p {
+    text-shadow: 1px 2px 3px #494949;
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+.parallax-container {
+    height: auto;
+    min-height: 100px;
+}
+
+.jp-font{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+p {
+    font-size: 19px;
+}
+
+.container {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.container>h5{
+    margin-top: 40px;
+}
+
+.filter {
+    background: #000;
+}
+
+.filter-img {
+    display: block;
+    opacity: .5;
+}
+
+.main-last {
+    margin-top: 1000px;
+}

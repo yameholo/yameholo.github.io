@@ -1,100 +1,253 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Yohei Ema</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-    <script type="text/javascript" src="scripts/jquery.parallax-1.1.3.js"></script>
-    <script type="text/javascript" src="scripts/jquery.localscroll-1.2.7-min.js"></script>
-    <script type="text/javascript" src="scripts/jquery.scrollTo-1.4.2-min.js"></script>
-    <script type="text/javascript" src="scripts/jquery.inview.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $('#nav').localScroll(800);
+<head>
+  <meta charset="UTF-8">
+  <title>Who is Yohei Ema</title>
+  <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+  <link rel="stylesheet" href="main.css">
+  <link rel = "stylesheet" href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+  <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">
+  </script>
+</head>
 
-            //.parallax(xPosition, speedFactor, outerHeight) options:
-            //xPosition - Horizontal position of the element
-            //inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
-            //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
-            $('#intro').parallax("30%", 0.1);
-            $('#second').parallax("50%", 0.1);
-        })
-    </script>
-  </head>
-  <body>
-  <ul id="nav">
-    <li><a href="#intro" title="Next Section"><img src="images/dot.png" alt="Link"></a> </li>
-    <li><a href="#second" title="Next Section"><img src="images/dot.png" alt="Link"></a> </li>
-    <li><a href="#contact" title="Next Section"><img src="images/dot.png" alt="Link"></a> </li>
-  </ul>
+<body>
 
-  <div id="intro">
-    <div class="story">
-      <p id="name">Yohei Ema</p>
-      <p>A student of Hosei University</p>
-      <p>Python C++</p>
+<header>
+</header>
+
+<main>
+  <div class="section brown lighten-5">
+    <br><br><br>
+    <h1 class="header center deep-orange-text text-accent-3">Yohei Ema</h1>
+    <div class="row center">
+      <h5 class="header col s12 grey-text text-darken-1">
+        A student of Hosei University
+      </h5>
     </div>
+    <br><br>
   </div>
 
-  <div id="second">
-    <div class="inner">
-      <p id="projects">Projects</p>
+  <div class="parallax-container">
+    <div class="parallax"><img src="images/_e_town0049_s1024_town0049_2.png"></div>
+  </div>
 
-      <div class="wrapper">
-        <div class="element">
-          <a href="https://github.com/yameholo/Scientific-computing">
-            <div id="img1">
-              <div class="cover">
-                <p>科学技術計算</p>
-              </div>
-            </div>
-          </a>
-          <p>　科学技術計算で用いるアルゴリズムをjupyterで実装。学習用。</p>
-        </div>
-
-          <div class="element">
-            <a href="https://github.com/yameholo/BruteForcePy">
-              <div id="img2">
-                <div class="cover">
-                  <p>BruteForcePy</p>
-                </div>
-              </div>
-            </a>
-            <p>[開発中]<br>マルチスレッドで総当たり法を実装。現在、索敵用の辞書式な単語生成機能のみ。</p>
-          </div>
-
-          <div class="element">
-            <a href="https://github.com/yameholo/Design-Pattern-on-Unity">
-              <div id="img3">
-                <div class="cover">
-                  <p>Design-Pattern-on-Unity</p>
-                </div>
-              </div>
-            </a>
-            <p>　Unityでdesign patternを実装。<br>command pattern, composite patternを用いたコントローラを作成。</p>
-          </div>
-
-          <div class="element">
-            <a href="https://github.com/yameholo/SearchMe">
-              <div id="img4">
-                <div class="cover">
-                  <p>SearchMe</p>
-                </div>
-              </div>
-            </a>
-            <p>ブラウザの履歴から自分の興味のあるワードをマイニングし、wordcloudで表示する。</p>
-          </div>
+  <div class="section brown lighten-5">
+    <div class="container">
+      <div class="row center">
+        <h4 class="center deep-orange-text text-accent-3 jp-font">活動理念</h4>
+        <p class="col s12 grey-text text-darken-1 jp-font">
+          自分の"楽しい"を かたち にする。かたちある物 から"楽しい"を生み出す。
+        </p>
       </div>
     </div>
   </div>
-<!--
-  <div id="contact">
-    <div class="story">
 
+  <div class="section white">
+    <div class="container lime lighten-5">
+      <br>
+      <h4 class="center deep-orange-text text-accent-3 jp-font">プロフィール</h4>
+      <div class="container">
+        <h5 class="valign-wrapper grey-text text-darken-2 jp-font">名前</h5>
+        <div class="divider"></div>
+        <p class="grey-text text-darken-1 jp-font">江間洋平</p>
+
+        <h5 class="valign-wrapper grey-text text-darken-2 jp-font">年齢</h5>
+        <div class="divider"></div>
+        <p class="grey-text text-darken-1 jp-font">21</p>
+
+        <h5 class="valign-wrapper grey-text text-darken-2 jp-font">所属</h5>
+        <div class="divider"></div>
+        <p class="grey-text text-darken-1 jp-font">法政大学</p>
+
+        <h5 class="valign-wrapper grey-text text-darken-2 jp-font">専攻</h5>
+        <div class="divider"></div>
+        <p class="grey-text text-darken-1 jp-font">情報セキュリティ・ブロックチェーン</p>
+
+        <h5 class="valign-wrapper grey-text text-darken-2 jp-font">趣味</h5>
+        <div class="divider"></div>
+        <p class="grey-text text-darken-1 jp-font">VRChat/e-sports/ウォーキング</p>
+
+        <br><br>
+      </div>
     </div>
   </div>
--->
-  </body>
+
+
+  <div class="section white">
+    <div class="container lime lighten-5">
+      <br>
+      <h4 class="center deep-orange-text text-accent-3 jp-font">できること</h4>
+      <div class="container">
+        <h5 class="valign-wrapper grey-text text-darken-2 jp-font">プログラミング言語</h5>
+        <div class="divider"></div>
+        <p class="grey-text text-darken-1 jp-font">Python/Javascript/HTML5(CSS)/C++/Kotlin</p>
+
+        <h5 class="valign-wrapper grey-text text-darken-2 jp-font">データベース</h5>
+        <div class="divider"></div>
+        <p class="grey-text text-darken-1 jp-font">MySQL/SQLite</p>
+
+        <h5 class="valign-wrapper grey-text text-darken-2 jp-font">フレームワーク</h5>
+        <div class="divider"></div>
+        <p class="grey-text text-darken-1 jp-font">Flask(Python)/Bootstrap/materialize</p>
+
+        <h5 class="valign-wrapper grey-text text-darken-2 jp-font">OS</h5>
+        <div class="divider"></div>
+        <p class="grey-text text-darken-1 jp-font">Mac/Windows/Ubuntu/Kali linux</p>
+
+        <br><br>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h3 class="header col s12 deep-orange-text text-accent-2 jp-font">〜 つくったもの 〜</h3>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="images/_e_town0077_s1024_town0077_6.jpg"></div>
+  </div>
+
+  <div class="section white">
+    <div class="container">
+      <div class="row">
+
+        <div class="col s12 m6 l4">
+          <div class="card hoverable lime lighten-5">
+            <div class="card-image filter">
+              <img src="images/wordcloud.png" class="filter-img">
+              <span class="card-title jp-font">SearchMe</span>
+            </div>
+            <div class="card-content grey-text text-darken-2 jp-font">
+              <p>ブラウザの履歴から自分の興味のあるワードをマイニングし、wordcloudで表示する。</p>
+            </div>
+            <div class="card-action">
+              <a href="https://github.com/yameholo/SearchMe">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6 l4">
+          <div class="card hoverable lime lighten-5">
+            <div class="card-image filter">
+              <img src="images/06c19db2.jpg" class="filter-img">
+              <span class="card-title jp-font">Design-Pattern-on-Unity</span>
+            </div>
+            <div class="card-content grey-text text-darken-2 jp-font">
+              <p>Unityでdesign patternを実装。<br>command pattern, composite patternを用いたコントローラを作成。</p>
+            </div>
+            <div class="card-action">
+              <a href="https://github.com/yameholo/Design-Pattern-on-Unity">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6 l4">
+          <div class="card hoverable lime lighten-5">
+            <div class="card-image filter">
+              <img src="images/siro_lang.png" class="filter-img">
+              <span class="card-title jp-font">SIRO Language Interpreter</span>
+            </div>
+            <div class="card-content grey-text text-darken-2 jp-font">
+              <p>brainf*ckの拡張言語Siroをウェブ上で実行するインタープリタ</p>
+            </div>
+            <div class="card-action">
+              <a href="https://yameholo.github.io/SiroLangInterpreter/">link</a>
+              <a href="https://github.com/yameholo/SiroLangInterpreter">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6 l4">
+          <div class="card hoverable lime lighten-5">
+            <div class="card-image filter">
+              <img src="images/jupyter.png" class="filter-img">
+              <span class="card-title jp-font">科学技術計算</span>
+            </div>
+            <div class="card-content grey-text text-darken-2 jp-font">
+              <p>科学技術計算で用いるアルゴリズムをjupyterで実装。学習用。</p>
+            </div>
+            <div class="card-action">
+              <a href="https://github.com/yameholo/Scientific-computing">GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6 l4">
+          <div class="card hoverable lime lighten-5">
+            <div class="card-image filter">
+              <img src="images/twitter_bot.png" class="filter-img">
+              <span class="card-title jp-font">Twitter Bot</span>
+            </div>
+            <div class="card-content grey-text text-darken-2 jp-font">
+              <p>形態素解析＋マルコフ連鎖でツイートするBot。（現在動かしていません）</p>
+            </div>
+            <div class="card-action">
+              <a href="https://twitter.com/15k0109_yohei_E">link</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="section brown lighten-5">
+    <div class="container">
+      <div class="row center">
+        <br>
+        <h4 class="center deep-orange-text text-accent-3 jp-font">これから</h4>
+        <p class="col s12 grey-text text-darken-1 jp-font">
+          フロントエンド・バックエンド・デザインを貪欲に勉強していきたい。
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <div class="row center">
+        <br><br><br><br>
+        <img src="images/_e_town0153_s256_town0153_8.png">
+      </div>
+    </div>
+</main>
+
+<footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col l6 s12">
+        <h5 class="white-text">Contact</h5>
+        <p class="grey-text text-lighten-4">FaceBookからお声掛けください</p>
+      </div>
+      <div class="col l4 offset-l2 s12">
+        <h5 class="white-text">Links</h5>
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="https://github.com/yameholo">GitHub</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/you.ema.39">Facebook</a></li>
+          <li><a class="grey-text text-lighten-3" href="https://www.wantedly.com/users/37042532">Wantedly</a></li>
+          <li><a class="grey-text text-lighten-3" href="#">Paiza</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+      © 2018 yameholo
+    </div>
+  </div>
+</footer>
+
+<script>
+    $(document).ready(function(){
+        $('.parallax').parallax();
+    });
+
+</script>
+</body>
 </html>
