@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 50  # Order that this section will appear.
 
 title = "Accomplish&shy;ments"
-subtitle = ""
+subtitle = "実績・資格"
 
 # Date format
 #   Refer to https://sourcethemes.com/academic/docs/customization/#date-format
@@ -19,33 +19,13 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
-  organization = "Coursera"
-  organization_url = "https://www.coursera.org"
-  title = "Neural Networks and Deep Learning"
+  organization = "PR TIMES内定直結ハッカソン"
+  organization_url = "https://prtimes.jp/main/html/rd/p/000000922.000000112.html"
+  title = "最優秀賞"
   url = ""
-  certificate_url = "https://www.coursera.org"
-  date_start = "2018-10-01"
-  date_end = ""
-  description = ""
-
-[[item]]
-  organization = "edX"
-  organization_url = "https://www.edx.org"
-  title = "Blockchain Fundamentals"
-  url = "https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals"
-  certificate_url = "https://www.edx.org"
-  date_start = "2018-03-01"
-  date_end = ""
-  description = "Formulated informed blockchain models, hypotheses, and use cases."
-  
-[[item]]
-  organization = "DataCamp"
-  organization_url = "https://www.datacamp.com"
-  title = "Object-Oriented Programming in R: S3 and R6 Course"
-  url = ""
-  certificate_url = "https://www.datacamp.com"
-  date_start = "2017-07-01"
-  date_end = "2017-12-21"
+  certificate_url = "https://ascii.jp/elem/000/001/880/1880613/"
+  date_start = "2019-06-06"
+  date_end = "2019-06-07"
   description = ""
 
 +++
