@@ -18,7 +18,7 @@ organizations:
   url: "https://prtimes.co.jp/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: PHPのお仕事してます。趣味でPython書いてます。
 
 interests:
 - Web Application
