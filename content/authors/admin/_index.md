@@ -42,12 +42,9 @@ social:
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/app1e_s
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/yameholo
 - icon: link
   icon_pack: fas
   link: https://qiita.com/meihei/
