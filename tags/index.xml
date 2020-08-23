@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags | Meihei</title>
+    <link>https://yameholo.github.io/tags/</link>
+      <atom:link href="https://yameholo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tags</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 meihei</copyright><lastBuildDate>Sun, 23 Aug 2020 14:33:39 +0900</lastBuildDate>
+    <image>
+      <url>https://yameholo.github.io/images/icon_hu51965789b0c5b4a7a14dbcd404db46d9_10450_512x512_fill_lanczos_center_2.png</url>
+      <title>Tags</title>
+      <link>https://yameholo.github.io/tags/</link>
+    </image>
+    
+  </channel>
+</rss>
