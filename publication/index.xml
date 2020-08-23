@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Meihei</title>
+    <link>https://yameholo.github.io/publication/</link>
+      <atom:link href="https://yameholo.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 meihei</copyright>
+    <image>
+      <url>https://yameholo.github.io/images/icon_hu51965789b0c5b4a7a14dbcd404db46d9_10450_512x512_fill_lanczos_center_2.png</url>
+      <title>Publications</title>
+      <link>https://yameholo.github.io/publication/</link>
+    </image>
+    
+  </channel>
+</rss>

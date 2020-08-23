@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nlp | Meihei</title>
+    <link>https://yameholo.github.io/tag/nlp/</link>
+      <atom:link href="https://yameholo.github.io/tag/nlp/index.xml" rel="self" type="application/rss+xml" />
+    <description>nlp</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 meihei</copyright><lastBuildDate>Sun, 23 Aug 2020 14:33:39 +0900</lastBuildDate>
+    <image>
+      <url>https://yameholo.github.io/images/icon_hu51965789b0c5b4a7a14dbcd404db46d9_10450_512x512_fill_lanczos_center_2.png</url>
+      <title>nlp</title>
+      <link>https://yameholo.github.io/tag/nlp/</link>
+    </image>
+    
+    <item>
+      <title>VTuber2Vec</title>
+      <link>https://yameholo.github.io/project/vtuber2vec/</link>
+      <pubDate>Sun, 23 Aug 2020 14:33:39 +0900</pubDate>
+      <guid>https://yameholo.github.io/project/vtuber2vec/</guid>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;p&gt;Doc2Vecを用いたバーチャルYouTuberのベクトル化&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Qiita: &lt;a href=&#34;https://qiita.com/meihei/items/efc4f63b3df85f125857&#34;&gt;https://qiita.com/meihei/items/efc4f63b3df85f125857&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GitHub: &lt;a href=&#34;https://github.com/yameholo/VTuber2Vec&#34;&gt;https://github.com/yameholo/VTuber2Vec&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
