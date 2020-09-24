@@ -5,12 +5,28 @@
     <link>https://yameholo.github.io/</link>
       <atom:link href="https://yameholo.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Meihei</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 meihei</copyright><lastBuildDate>Sun, 23 Aug 2020 14:33:39 +0900</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 meihei</copyright><lastBuildDate>Thu, 24 Sep 2020 23:54:03 +0900</lastBuildDate>
     <image>
       <url>https://yameholo.github.io/images/icon_hu51965789b0c5b4a7a14dbcd404db46d9_10450_512x512_fill_lanczos_center_2.png</url>
       <title>Meihei</title>
       <link>https://yameholo.github.io/</link>
     </image>
+    
+    <item>
+      <title>.LIVE Balloon</title>
+      <link>https://yameholo.github.io/project/dotliveballoon/</link>
+      <pubDate>Thu, 24 Sep 2020 23:54:03 +0900</pubDate>
+      <guid>https://yameholo.github.io/project/dotliveballoon/</guid>
+      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
+&lt;p&gt;君の誕生日を推しもお祝いしてくれる、どっとライブ風船！Twitterで誕生日の人に風船が飛ぶよ！&lt;/p&gt;
+&lt;p&gt;Twitter上でユーザーが誕生日の時、.LIVE(どっとライブ)のメンバーと一緒に風船が飛びます。&lt;/p&gt;
+&lt;p&gt;絵作：蒸気 様（ &lt;a href=&#34;https://twitter.com/fymXSJpJDp5ud1H&#34;&gt;https://twitter.com/fymXSJpJDp5ud1H&lt;/a&gt; ）&lt;/p&gt;
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Chromeウェブストア: &lt;a href=&#34;https://chrome.google.com/webstore/detail/live-balloon/lfknhdikidbakglomfnblabhemcbllgl?hl=ja&#34;&gt;https://chrome.google.com/webstore/detail/live-balloon/lfknhdikidbakglomfnblabhemcbllgl?hl=ja&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>VTuber2Vec</title>

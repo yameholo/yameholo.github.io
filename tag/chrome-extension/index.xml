@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>JavaScript | Meihei</title>
-    <link>https://yameholo.github.io/tag/javascript/</link>
-      <atom:link href="https://yameholo.github.io/tag/javascript/index.xml" rel="self" type="application/rss+xml" />
-    <description>JavaScript</description>
+    <title>Chrome Extension | Meihei</title>
+    <link>https://yameholo.github.io/tag/chrome-extension/</link>
+      <atom:link href="https://yameholo.github.io/tag/chrome-extension/index.xml" rel="self" type="application/rss+xml" />
+    <description>Chrome Extension</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020 meihei</copyright><lastBuildDate>Thu, 24 Sep 2020 23:54:03 +0900</lastBuildDate>
     <image>
       <url>https://yameholo.github.io/images/icon_hu51965789b0c5b4a7a14dbcd404db46d9_10450_512x512_fill_lanczos_center_2.png</url>
-      <title>JavaScript</title>
-      <link>https://yameholo.github.io/tag/javascript/</link>
+      <title>Chrome Extension</title>
+      <link>https://yameholo.github.io/tag/chrome-extension/</link>
     </image>
     
     <item>
@@ -24,21 +24,6 @@
 &lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Chromeウェブストア: &lt;a href=&#34;https://chrome.google.com/webstore/detail/live-balloon/lfknhdikidbakglomfnblabhemcbllgl?hl=ja&#34;&gt;https://chrome.google.com/webstore/detail/live-balloon/lfknhdikidbakglomfnblabhemcbllgl?hl=ja&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Siro Language Interpreter</title>
-      <link>https://yameholo.github.io/project/sirolanguageinterpreter/</link>
-      <pubDate>Sun, 23 Aug 2020 14:33:25 +0900</pubDate>
-      <guid>https://yameholo.github.io/project/sirolanguageinterpreter/</guid>
-      <description>&lt;h2 id=&#34;概要&#34;&gt;概要&lt;/h2&gt;
-&lt;p&gt;brainf*ckの拡張言語Siroをウェブ上で実行するインタープリタ&lt;/p&gt;
-&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Application: &lt;a href=&#34;https://yameholo.github.io/SiroLangInterpreter/&#34;&gt;https://yameholo.github.io/SiroLangInterpreter/&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;GitHub: &lt;a href=&#34;https://github.com/yameholo/SiroLangInterpreter&#34;&gt;https://github.com/yameholo/SiroLangInterpreter&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
