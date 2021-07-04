@@ -30,9 +30,6 @@ education:
   - course: 情報科学部 コンピュータ科学科 学士課程
     institution: Hosei University
     year: 2020
-  - course: 基本情報技術者試験
-    institution: IPA (Information-technology Promotion Agency), Japan
-    year: 2018
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -45,12 +42,6 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/yameholo
-- icon: link
-  icon_pack: fas
-  link: https://qiita.com/meihei/
-- icon: link
-  icon_pack: fas
-  link: https://note.com/meihei/
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv

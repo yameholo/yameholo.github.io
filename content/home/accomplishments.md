@@ -19,6 +19,16 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
 [[item]]
+  organization = "IPA (Information-technology Promotion Agency)"
+  organization_url = "https://www.jitec.ipa.go.jp/"
+  title = "基本情報技術者試験"
+  url = ""
+  certificate_url = ""
+  date_start = "2018-05-16"
+  date_end = ""
+  description = ""
+
+[[item]]
   organization = "PR TIMES内定直結ハッカソン"
   organization_url = "https://prtimes.jp/main/html/rd/p/000000922.000000112.html"
   title = "最優秀賞"

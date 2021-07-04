@@ -18,7 +18,7 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
-  title = "エンジニア(新卒)"
+  title = "PHPエンジニア(新卒)"
   company = "株式会社PR TIMES"
   company_url = ""
   location = ""
@@ -27,7 +27,7 @@ date_format = "Jan 2006"
   description = """"""
 
 [[experience]]
-  title = "アルバイト"
+  title = "Pythonエンジニア(アルバイト)"
   company = "財産ネット株式会社"
   company_url = ""
   location = ""
@@ -36,7 +36,7 @@ date_format = "Jan 2006"
   description = """"""
 
 [[experience]]
-  title = "インターン"
+  title = "Swiftエンジニア(インターン)"
   company = "モイ株式会社"
   company_url = ""
   location = ""
